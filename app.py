@@ -17,7 +17,7 @@ st.sidebar.markdown("""
 - **Data Scientist PhD** (CESI/ENSAM)
 - Python • LangChain • PyTorch • Snowflake
 - Maintenance Prédictive • RAG/LLM
-- [GitHub](https://github.com/amal-ayadi/rag-phm-assistant)
+- [GitHub](https://github.com/amalayedi/rag-phm-assistant-amal)
 - [LinkedIn](https://linkedin.com/in/amal-ayadi)
 """)
 
