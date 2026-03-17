@@ -1,16 +1,15 @@
 import streamlit as st
+import os
+import tempfile
 
-st.title("🎉 RAG Assistant PHM - Amal AYADI")
-st.markdown("""
-## ✅ **Projet Live Data Science Portfolio**
+st.set_page_config(page_title="RAG Assistant - Amal AYADI", layout="wide")
 
-**Technologies :** Python • LangChain • Streamlit Cloud • Embeddings
+st.title("🤖 RAG Assistant Maintenance Prédictive")
+st.markdown("**Portfolio Data Science - Projet Live Mars 2026**")
 
-**Fonctionnalités prévues :**
-- 📄 Upload PDF technique
-- 🔍 Recherche intelligente RAG
-- 💬 Q&A IA sourcée
+col1, col2 = st.columns([2, 1])
 
-**Auteur :** Amal AYADI - Data Scientist PhD
-**GitHub :** github.com/amal-ayadi/rag-phm-assistant
-**Contact :** ayadi.amal
+with col1:
+    st.markdown("""
+    ### Fonctionnalités
+    - 📄
